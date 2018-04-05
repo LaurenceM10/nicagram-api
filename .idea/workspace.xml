@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18f5e75d-d94d-4cf3-b771-6f06311e6ccf" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/graphql/types/post_type.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/graphql/types/post_type.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/graphql/types/query_type.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/graphql/types/query_type.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -22,18 +28,22 @@
       <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="488">
+              <caret line="57" column="41" lean-forward="true" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nicagram_api_schema.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/graphql/nicagram_api_schema.rb">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="query_type.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/graphql/types/query_type.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_type.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="post_type.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/graphql/types/post_type.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -42,13 +52,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="query_type.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/graphql/types/query_type.rb">
+      <file leaf-file-name="user_type.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/graphql/types/user_type.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nicagram_api_schema.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/graphql/nicagram_api_schema.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="45" lean-forward="true" selection-start-column="45" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/post.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schema.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/schema.rb">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -65,8 +98,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/graphql/types/post_type.rb" />
+        <option value="$PROJECT_DIR$/app/models/post.rb" />
+        <option value="$PROJECT_DIR$/app/models/picture.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/app/graphql/types/user_type.rb" />
         <option value="$PROJECT_DIR$/app/graphql/types/query_type.rb" />
+        <option value="$PROJECT_DIR$/app/graphql/types/post_type.rb" />
       </list>
     </option>
   </component>
@@ -76,10 +113,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="30" />
-    <option name="width" value="1366" />
-    <option name="height" value="738" />
+    <option name="width" value="1356" />
+    <option name="height" value="553" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -112,6 +149,17 @@
               <item name="graphql" type="462c0819:PsiDirectoryNode" />
               <item name="types" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="nicagram-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nicagram-api" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nicagram-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nicagram-api" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="migrate" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -120,7 +168,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="gemfile&#9;FILE&#9;file:///home/developer/rails-projects/nicagram-api/Gemfile" />
+    <property name="SearchEverywhereHistoryKey" value="gem&#9;FILE&#9;file:///home/developer/rails-projects/nicagram-api/Gemfile&#10;gemfile&#9;FILE&#9;file:///home/developer/rails-projects/nicagram-api/Gemfile" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -248,15 +296,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1522891559920</updated>
-      <workItem from="1522891563380" duration="3775000" />
+      <workItem from="1522891563380" duration="11871000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3775000" />
+    <option name="totallyTimeSpent" value="11871000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="30" width="1366" height="738" extended-state="6" />
+    <frame x="0" y="30" width="1366" height="738" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -287,27 +335,69 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/app/models/picture.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20180405033400_create_posts.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/graphql/nicagram_api_schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" lean-forward="true" selection-start-column="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/post.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/graphql/types/post_type.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        <state relative-caret-position="488">
+          <caret line="57" column="41" lean-forward="true" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/graphql/types/query_type.rb">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/graphql/types/user_type.rb">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/graphql/types/post_type.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
